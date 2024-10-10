@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """create an algorithm for calculating the rain"""
 
@@ -17,4 +16,3 @@ def rain(walls):
             right = max(right, walls[j])
         water += min(left, right) - walls[i]
     return water
-
